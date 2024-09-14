@@ -41,7 +41,7 @@ if __name__ == "__main__":
             break
     print("Password length:", password_length)
 
-    # Step 4: Extract the password for the user "administrator"
+    # Step 4: Brute force the password for the user "administrator"
     password = ""
     for i in range(1, password_length + 1):
         for char in 'abcdefghijklmnopqrstuvwxyz0123456789':
