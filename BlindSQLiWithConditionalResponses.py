@@ -1,7 +1,7 @@
 import requests
 
 # Target URL
-base_url = "https://0a1c007f03e68c6a80084e08007400a3.web-security-academy.net"
+base_url = "https://YOUR-LAB-ID.web-security-academy.net"
 
 def get_initial_tracking_id():
     response = requests.get(base_url)
