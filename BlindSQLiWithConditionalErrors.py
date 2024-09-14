@@ -33,7 +33,7 @@ def get_password_length():
             print(f"Password length:", length)
             return length
 
-# Step 3: Determine the password
+# Step 3: Brute force the password
 def get_password(length):
     password = ""
     characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
